@@ -82,7 +82,6 @@ margin-top: 0px;
 .fastfood .box{
   padding: 40px;
   float: left;
-
 }
 .fastfood .text{
   padding: 20px;
@@ -140,9 +139,9 @@ font-weight: bold;
   font-size: 15px;
 }
 .food{
-  background-image: url(../images/foodsBg.jpg);
   min-height: 400px;
   overflow: hidden;
+  height: auto;
 }
 .food .jumbotron{
   margin-top: 100px;
@@ -169,16 +168,11 @@ font-weight: bold;
 .food .row #rice{
   background-color: grey;
 }
-.row p{
-   color: white;
-   padding: 20px;
- }
- .customers{
-   border: 2px solid grey;
-   margin-top: 40px;
-   height: 250px;
-   width: 1200px;
-  margin-left: 50px;
+.customers{
+ border: 2px solid grey;
+ margin-top: 40px;
+  height: 250px;
+  width: 1200px;
   margin-bottom: 40px;
  }
  .customers .happy{
@@ -212,8 +206,6 @@ font-weight: bold;
   margin-left: 400px;
   border: solid 0px;
 }
-
-
 footer{
   background-color:  #F15A29;
   height: 280px;
