@@ -139,3 +139,112 @@ font-weight: bold;
   height: 40px;
   font-size: 15px;
 }
+.food{
+  background-image: url(../images/foodsBg.jpg);
+  min-height: 400px;
+  overflow: hidden;
+}
+.food .jumbotron{
+  margin-top: 100px;
+  min-height: 150px;
+}
+.food .jumbo{
+  margin-left: 100px;
+}
+.food .jumbo img{
+  padding: 20px;
+}
+.food .row #fast{
+  background-color: white;
+}
+.food .row #fast p{
+  color: #F15A29;
+}
+.food .row #drinks{
+  background-color: grey;
+}
+.food .row #chicken{
+  background-color: grey;
+}
+.food .row #rice{
+  background-color: grey;
+}
+.row p{
+   color: white;
+   padding: 20px;
+ }
+ .customers{
+   border: 2px solid grey;
+   margin-top: 40px;
+   height: 250px;
+   width: 1200px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+ }
+ .customers .happy{
+   float: left;
+   margin-left:  80px;
+ }
+ .customers .about{
+   float: right;
+   width: 40%;
+ }
+ .advert{
+   background-image: url(../images/subscribe.jpg);
+   height: 300px;
+}
+.advert h2{
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+  text-align: center;
+}
+.advert button{
+  background-color: #F15A29;
+  height: 50px;
+  width: 120px;
+  border: solid 0px;
+  color: white;
+  font-size: 25px;
+}
+.advert input{
+  background-color: grey;
+  margin-left: 400px;
+  border: solid 0px;
+}
+
+
+footer{
+  background-color:  #F15A29;
+  height: 280px;
+}
+footer .juu{
+  margin-left: 530px;
+  padding: 20px;
+  color: white;
+  margin-top: 0px;
+  font-size: 35px;
+}
+footer .word{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+footer .media{
+  display: inline;
+  padding: 15px;
+}
+footer .last{
+  text-align: center;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
