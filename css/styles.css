@@ -106,3 +106,36 @@ font-size: 18px;
   background-color: white;
   height: 40px;
 }
+.drink{
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.drink .text{
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  font-style: comic sans MS;
+}
+.drink .text p{
+  font-size: 15px;
+}
+.drink .text h2{
+  font-size: 18px;
+}
+.drink .text h1{
+font-weight: bold;
+}
+.drink .box{
+  float: right;
+  margin-right: 100px;
+  overflow: hidden;
+   box-shadow: 5px 10px #888888;
+   opacity: 0px;
+}
+.drink button{
+  background-color: white;
+  border: solid 0.5px;
+  color: #F15A29;
+  height: 40px;
+  font-size: 15px;
+}
