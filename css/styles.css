@@ -1,0 +1,16 @@
+.container{
+  width: auto;
+}
+.header{
+  background-image: url(../images/landing.jpg);
+  height: 500px;
+}
+.header img{
+margin-left: 500px;
+margin-top: 70px;
+}
+.header p{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
