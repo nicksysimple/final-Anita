@@ -14,3 +14,63 @@ margin-top: 70px;
   color: white;
   font-size: 30px;
 }
+#happy-party{
+  height: 180px;
+    background-color: grey;
+}
+#happy-party  :hover{
+box-shadow: 0 0 5px #000;
+}
+#happy-party .juu{
+  height: 90px;
+}
+#happy-party .chini{
+  height: 90px;
+}
+#happy-party .juu p{
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
+#happy-party .chini p{
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
+#breakfast{
+    background-image: url(../images/breakfast.jpg);
+    height: 180px
+}
+#breakfast :hover{
+box-shadow: 0 0 5px #000;
+}
+#breakfast p{
+  color: white;
+  font-size: 30px;
+  padding: 70px;
+}
+#lunch{
+    background-image: url(../images/lunch.jpg);
+    height: 180px;
+}
+#lunch  :hover{
+box-shadow: 0 0 5px #000;
+}
+#lunch p{
+  color: white;
+    font-size: 30px;
+      padding: 70px;
+}
+#dinner{
+  background-image: url(../images/dinner.jpg);
+  height: 180px;
+
+}
+#dinner  :hover{
+box-shadow: 0 0 5px #000;
+}
+#dinner  p{
+  color: white;
+    padding: 70px;
+  font-size: 30px;
+}
